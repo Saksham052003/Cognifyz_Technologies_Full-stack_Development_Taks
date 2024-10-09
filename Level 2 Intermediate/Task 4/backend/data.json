@@ -1,0 +1,100 @@
+{
+  "users": [
+    {
+      "email": "sharmasaksham052003@gmail.com",
+      "password": "$2b$10$YDxJUiox1x.nKWqc54dVfeOs7j9R.QFPagVTVuhthCV9bk0WxhJhS"
+    },
+    {
+      "email": "minaxi@gmail.com",
+      "password": "$2b$10$AQLKypfBsrv3ld398DAB.ea.m8jgAUy.L46U9ae3435hLB6YvIe0S"
+    },
+    {
+      "email": "viny@gamil.com",
+      "password": "$2b$10$HvMLHe19aEi5kdzikudQ9.glwFT6A6IPgjT1jVukrJVuOuQOpxfIe"
+    },
+    {
+      "email": "yup@gmail.com",
+      "password": "$2b$10$Jyu.tTUfvZVZNCCHGENvoOCtsKEen5Uf0QQa6Uy10XTYGVR/4IOja"
+    },
+    {
+      "email": "Saksham@gmail.com",
+      "password": "$2b$10$jDJ5khkp1.nJz/uG.yfhM.Eep6o3kQvmJ9jqmnbElyb8L87ahZHRS"
+    },
+    {
+      "email": "xyz@gmail.com",
+      "password": "$2b$10$v7e9Z6HcnxPcPOizhEu9/.oe7vp3/3YN8Ybz./VI7hRh/qDkFoU7C"
+    },
+    {
+      "email": "abc@gmail.com",
+      "password": "$2b$10$Op9z0NQniaUjNpQW.AYxPevlaj97EU2Uz7YzinQYNNs0lKYt9Ljfe"
+    },
+    {
+      "email": "s@gmail.com",
+      "password": "$2b$10$Rd1cVy1Ag3MNWroDkR8jB.zAA2h68vo.Rzwsp.fyazYlG6C5fgBCC"
+    },
+    {
+      "email": "t@gmail.com",
+      "password": "$2b$10$8CkLFck6by/OnoDav5l0f.26uG1UKZVrxhsS85Kj.DoGjNHMbV4zi"
+    },
+    {
+      "email": "p@gmail.com",
+      "password": "$2b$10$fesjH7iVsCRcH5flf9pSNuRk6mrVtdGCKbkaorby58l4QjqAiUyDG"
+    }
+  ],
+  "todos": [
+    {
+      "id": "1721549635018",
+      "text": "ty",
+      "userEmail": "sharmasaksham052003@gmail.com",
+      "createdAt": "2024-07-21T08:13:55.018Z"
+    },
+    {
+      "id": "1721549638655",
+      "text": "yu",
+      "userEmail": "sharmasaksham052003@gmail.com",
+      "createdAt": "2024-07-21T08:13:58.655Z"
+    },
+    {
+      "id": "1721550022538",
+      "text": "tyip",
+      "userEmail": "minaxi@gmail.com",
+      "createdAt": "2024-07-21T08:20:22.538Z"
+    },
+    {
+      "id": "1724158705580",
+      "text": "S",
+      "userEmail": "Saksham@gmail.com",
+      "createdAt": "2024-08-20T12:58:25.580Z"
+    },
+    {
+      "id": "1724159010723",
+      "text": "Task 1",
+      "userEmail": "xyz@gmail.com",
+      "createdAt": "2024-08-20T13:03:30.723Z"
+    },
+    {
+      "id": "1724159029577",
+      "text": "Task 2",
+      "userEmail": "xyz@gmail.com",
+      "createdAt": "2024-08-20T13:03:49.577Z"
+    },
+    {
+      "id": "1724159075401",
+      "text": "random task 1",
+      "userEmail": "abc@gmail.com",
+      "createdAt": "2024-08-20T13:04:35.401Z"
+    },
+    {
+      "id": "1724245181764",
+      "text": "task 1",
+      "userEmail": "t@gmail.com",
+      "createdAt": "2024-08-21T12:59:41.764Z"
+    },
+    {
+      "id": "1724245227514",
+      "text": "tasjllsls",
+      "userEmail": "p@gmail.com",
+      "createdAt": "2024-08-21T13:00:27.514Z"
+    }
+  ]
+}

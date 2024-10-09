@@ -1,0 +1,271 @@
+/* General Reset */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: rgb(36, 39, 41);
+  color: white;
+  line-height: 1.6;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #20232a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.logo a {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-btn {
+  color: #61dafb;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 8px 16px;
+  border: 2px solid #61dafb;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.nav-btn:hover {
+  background-color: #61dafb;
+  color: #20232a;
+}
+
+.username {
+  font-size: 1rem;
+  margin-right: 15px;
+}
+
+.logout-btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #ff6666;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+.name{
+  text-align: center;
+  font-size: 3rem;
+}
+
+.hamburger .bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 4px 0;
+  background-color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    background-color: #20232a;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+/* Form Styling */
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #282c34;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #61dafb;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #20232a;
+  color: white;
+}
+
+input::placeholder {
+  color: #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  color: #20232a;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #4fb3f6;
+}
+
+/* News and Favorites Styling */
+.news-container, .fav-container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #282c34;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1, h2 {
+  color: #61dafb;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.form-container input {
+  width: 70%;
+  margin-right: 10px;
+  padding: 10px; /* Adjusted padding for consistency */
+  height: 40px; /* Set a fixed height to match the button */
+  border-radius: 5px;
+  border: none;
+  background-color: #20232a;
+  color: white;
+}
+
+.form-container button {
+  width: 25%;
+  padding: 10px; /* Adjusted padding for consistency */
+  height: 40px; /* Set the same fixed height as the input */
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  color: #20232a;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-container button:hover {
+  background-color: #4fb3f6;
+}
+
+.category-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.category-container select {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #20232a;
+  color: white;
+  border: none;
+}
+
+.news-container div, .fav-container div {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-bottom: 2px solid #61dafb; /* Separator between articles */
+}
+
+.news-container img, .fav-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.readmore, .favorites-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #61dafb;
+  color: #20232a;
+  border-radius: 5px;
+  font-size: 0.9rem; /* Slightly smaller font */
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.readmore:hover, .favorites-btn:hover {
+  background-color: #4fb3f6;
+}
+
+.favorites-btn {
+  font-size: 0.85rem; /* Make it smaller */
+  padding: 6px 12px;  /* Adjust padding for a sleeker button */
+}
+
+/* Error and Loading Messages */
+p {
+  text-align: center;
+  margin: 20px 0;
+}
+
+p.error {
+  color: #ff4d4d;
+}
+
+/* Adding a Separator for News Items */
+.news-container div:not(:last-child) {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #4fb3f6;
+  padding-bottom: 20px;
+}
